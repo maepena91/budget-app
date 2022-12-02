@@ -7,10 +7,11 @@ function App() {
     <h1 className="me-auto">Budgets</h1>
     <Button variant="primary">Add Budget</Button>
     <Button variant="outline-primary">Add Expense</Button>
-
     </Stack> 
+  <div style={{display:"grid", gridTemplateColumns: "repeat(auto-fill,minimax(300px, 1fr))", gap: "1rem", alignItems:"flex-start"}}></div>
   </Container> //container comes from react bootstrap and gives us spacing around the edges
 }
 
 export default App;
 //stack is something we import from bootstrap 
+//margin me-auto and mb-4 give it enough spacing that is much needed
